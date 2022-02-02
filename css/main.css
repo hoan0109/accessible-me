@@ -1,6 +1,6 @@
 body {
   font-family: 'Roboto', Helvetica, sans-serif;
-  background-color: grey;
+  background-color: #FFF3D6;
   margin: 0;
   padding: 0;
 }
@@ -12,6 +12,7 @@ h4,
 h5,
 h6 {
   font-family: 'Stick No Bills', 'Roboto', Helvetica, sans-serif;
+  font-size: 3em;
 }
 
 .container {
@@ -68,4 +69,27 @@ form button {
 
 .site-footer {
   padding: 2rem 0;
+}
+
+/* ===== MY CSS ==== */
+
+ul {
+  list-style: none;
+}
+
+input, textarea {
+  margin-top: 0.5em;
+}
+
+.current a {
+  background: #ED7A4D;
+}
+
+nav {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.main-nav ul li a {
+  padding: 0.5em;
 }
